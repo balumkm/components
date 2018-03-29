@@ -11,6 +11,7 @@ class ButtonComponent extends Component{
 
 changeColor(){
     this.setState({color_black: !this.state.color_black})
+    alert('dumb changes made by me');
 }
   render(){
             let bgColor = this.state.color_black ? "green" : "red"
